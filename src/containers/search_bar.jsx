@@ -16,7 +16,7 @@ class SearchBar extends Component {
   }
 
   onSubmit = (event) => {
-    console.log(event);
+
     event.preventDefault();
     // fetch data
     this.props.fetchWeather(this.state.search);
@@ -24,7 +24,6 @@ class SearchBar extends Component {
   }
 
   render() {
-    console.log(this.state.search)
 
     return (
       <div>

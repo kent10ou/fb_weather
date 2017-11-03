@@ -36,8 +36,8 @@ class CitiesList extends Component {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <CartesianGrid stroke="#000" />
-            <Line type="monotone" dataKey="temp" stroke="#ff7300" yAxisId={0} />
+            <CartesianGrid stroke="#eee" />
+            <Line type="monotone" dataKey="temp" stroke="#3B5998" yAxisId={0} />
           </LineChart>
         </td>
         <td>
@@ -49,8 +49,8 @@ class CitiesList extends Component {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <CartesianGrid stroke="#000" />
-            <Line type="monotone" dataKey="pressure" stroke="#ff7300" yAxisId={0} />
+            <CartesianGrid stroke="#eee" />
+            <Line type="monotone" dataKey="pressure" stroke="#3B5998" yAxisId={0} />
           </LineChart>
         </td>
         <td>
@@ -62,8 +62,8 @@ class CitiesList extends Component {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <CartesianGrid stroke="#000" />
-            <Line type="monotone" dataKey="humidity" stroke="#ff7300" yAxisId={0} />
+            <CartesianGrid stroke="#eee" />
+            <Line type="monotone" dataKey="humidity" stroke="#3B5998" yAxisId={0} />
           </LineChart>
         </td>
       </tr>
@@ -77,9 +77,9 @@ class CitiesList extends Component {
         <thead>
           <tr>
             <th>City</th>
-            <th>Temperature</th>
-            <th>Pressure</th>
-            <th>Humidity</th>
+            <th>Temperature (F)</th>
+            <th>Pressure (hPa)</th>
+            <th>Humidity (%)</th>
           </tr>
         </thead>
         <tbody>
